@@ -24,3 +24,8 @@ function get_language(lang) {
     }
     return language;
 }
+
+module.exports = {
+    get_parser,
+    get_language
+};
