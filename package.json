@@ -1,0 +1,21 @@
+{
+  "name": "tree-sitter-languages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "configure": "node-gyp configure",
+    "build": "node-gyp build",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tree-sitter": "^0.21.1"
+  },
+  "devDependencies": {
+    "node-gyp": "^10.2.0"
+  },
+  "gypfile": true,
+  "description": ""
+}
